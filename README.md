@@ -38,3 +38,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Owners
 This website is owned by the sumitkp group. Please refrain from copying the data.
+
+
+## Features Checklist
+- Glass Design Header
+- Custom Cursor
+- 
