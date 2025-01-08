@@ -12,18 +12,23 @@ function AboutSection() {
             backSpeed: 100,
             loop: true
         });
-        
+
         return () => {
             typed.destroy();
         };
     }, []);
     return (
-        <div className="relative h-dvh bg-slate-600 columns-2 border-2 border-rose-500">
-            <div className="w-100 flex flex-col border-2 border-rose-500">
-                <div className='font-sans text-lg font-bold text-white'>I am <span ref={el}/></div>
-                <div>Description</div>
+        <div className="relative h-dvh bg-gray-100 md:columns-2 md:flex-col flex-row">
+            <div className="md:order-1 order-last w-100 pt-8 md:h-full md:flex flex-col justify-center items-center">
+                <img className="w-1/2 md:w-100% mx-auto rounded-full md:drop-shadow-xl" src="./sumit-1.png" />
+
             </div>
-            <div className="w-100  border-2 border-rose-500">Photo Here</div>
+            <div className="md:order-last order-1 md:w-100 md:h-full md:flex md:justify-center md:items-center">
+                <div className="font-sans md:text-7xl">
+                    I am <span ref={el} />
+                </div>
+
+            </div>
         </div>
     )
 };

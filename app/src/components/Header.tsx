@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 bg-violet-50">
             <div className="w-1/3 p-4 border-2 border-black">1</div>
             <div className="w-1/3 p-4 border-black border-2 grid grid-cols-2">
             

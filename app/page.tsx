@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <h1 className="text-black">Page Under Construction</h1>
       <AboutSection />
       <CareerSection />
       <FooterSection />
