@@ -4,7 +4,7 @@ function Header() {
     return (
         <div className="grid grid-cols-2 md:grid-cols-3 md:flex bg-violet-50">
             <div className="p-4 ">
-                <img src="./sumitkp-web-1.png" className="mx-auto md:h-auto md:max-w-xs md:mx-auto" />
+                <img src="/images/sumitkp-web-1.png" className="mx-auto md:h-auto md:max-w-xs md:mx-auto" />
             </div>
             <div className="w-1/4 md:w-1/3 grid grid-cols-2 hidden md:block">
                     <header className="md:flex md:absolute md:top-10">
