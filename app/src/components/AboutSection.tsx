@@ -24,7 +24,7 @@ function AboutSection() {
             <div className=" grid sm:grid-rows-2 md:grid md:grid-cols-2 bg-gray-100">
                 <div className="grid place-items-center relative w-full overflow-hidden">
                     <Image
-                        className="object-contain sm:w-1/3 md:w-1/2 my-auto mx-auto rounded-full md:drop-shadow-2xl" src="/sumit-1.png"
+                        className="object-contain sm:w-1/3 md:w-1/2 my-auto mx-auto rounded-full md:drop-shadow-2xl" src="/images/sumit-1.png"
                         width={100}
                         height={100}
                         unoptimized={true}

@@ -7,16 +7,17 @@ function Header() {
                 <img src="/images/sumitkp-web-1.png" className="mx-auto md:h-auto md:max-w-xs md:mx-auto" />
             </div>
             <div className="w-1/4 md:w-1/3 grid grid-cols-2 hidden md:block">
-                    <header className="md:flex md:absolute md:top-10">
-                        <nav className="">
-                            <ul className="flex text-black md:text-xl">
-                                <li className="m-2 hover:text-sky-400"><a href="">Resume</a></li>
-                                <li className="m-2 hover:text-sky-400"><a href="">Career</a></li>
-                                <li className="m-2 hover:text-sky-400"><a href="">Projects</a></li>
-                                <li className="m-2 hover:text-sky-400"><a href="">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </header>
+                <header className="md:flex md:absolute md:top-10">
+                    <nav className="">
+                        <ul className="flex text-black md:text-xl">
+                            <li className="m-2 hover:text-sky-400"><a href="/">Home</a></li>
+                            <li className="m-2 hover:text-sky-400"><a href="">Resume</a></li>
+                            <li className="m-2 hover:text-sky-400"><a href="">Career</a></li>
+                            <li className="m-2 hover:text-sky-400"><a href="">Projects</a></li>
+                            <li className="m-2 hover:text-sky-400"><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
             </div>
 
             <div className="hidden md:block w-1/3 p-4 ">
