@@ -11,7 +11,9 @@ function FooterSection() {
                   <Image 
                   src="https://flowbite.com/docs/images/logo.svg"
                   className="h-8 me-3" 
-                  alt="FlowBite Logo" />
+                  alt="FlowBite Logo"
+                  width={50}
+                  height={50} />
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">sumitkp</span>
               </a>
           </div>
