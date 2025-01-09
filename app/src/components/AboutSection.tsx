@@ -5,9 +5,17 @@ import React from 'react';
 function AboutSection() {
     // create reference to store the DOM element containing the animation
     const el = React.useRef(null);
+    const elMobile = React.useRef(null);
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Developer', 'Coder', 'ML Enthusiast'],
+            strings: ['Developer', 'Coder', 'Full-stack Developer'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+
+        const typedMobile = new Typed(elMobile.current, {
+            strings: ['Developer', 'Coder', 'Full-stack Developer'],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true
@@ -15,6 +23,7 @@ function AboutSection() {
 
         return () => {
             typed.destroy();
+            typedMobile.destroy
         };
     }, []);
     return (
@@ -24,12 +33,19 @@ function AboutSection() {
                     <img className="w-1/2 md:w-100% mx-auto rounded-full md:drop-shadow-2xl" src="./sumit-1.png" />
 
                 </div>
-                <div className="md:order-last order-1 md:w-100 md:h-full md:flex md:justify-center md:items-center">
-                    <div className="font-sans md:text-7xl">
+                <div className="mt-10 md:w-100 md:h-full flex justify-center items-center">
+                    <div className="invisible md:visible font-sans md:text-7xl">
                         I am <span ref={el} />
                     </div>
-
+                    <div className="visible md:invisible font-sans text-5xl">
+                        I am
+                    </div>
+                    
                 </div>
+                <div className='visble md:invisible flex justify-center items-center text-4xl'>
+                        <span ref={elMobile} />
+                    </div>
+
             </div>
         </div>
     )
