@@ -1,5 +1,4 @@
 'use client'
-import Typed from 'typed.js';
 import React from 'react';
 
 
