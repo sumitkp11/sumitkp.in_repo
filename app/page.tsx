@@ -5,7 +5,7 @@ import CareerSection from "./src/components/CareerSection";
 
 export default function Home() {
   return (
-    <div className="snap-y">
+    <div className="">
       <Header />
       <AboutSection />
       <CareerSection />
