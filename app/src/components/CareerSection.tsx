@@ -5,7 +5,7 @@ import React from 'react';
 function CareerSection() {
 
     return (
-        <div className='bg-slate-800'>
+        <div id="career" className='bg-slate-800'>
             <div className='text-3xl font-semibold py-5 px-5 dark:text-white'>Timeline</div>
             <div className='px-10 py-5 '>
                 <ol className="relative border-s border-gray-200 dark:border-gray-700">
