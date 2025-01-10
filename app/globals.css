@@ -32,11 +32,11 @@ body {
 .number .counter {
   font-weight: bold;
   font-style: italic;
-  font-size: 2.9em;
+  font-size: 2.5em;
   margin: 6px 0;
 }
 .number span {
-  font-size: 1.9em;
+  font-size: 1.5em;
   display: block;
 }
 

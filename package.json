@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lottielab/lottie-player": "^1.1.3",
     "next": "15.0.3",
     "react": "^18.2.0",
     "react-countup": "^6.5.3",
