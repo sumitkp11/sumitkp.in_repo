@@ -23,9 +23,9 @@ function Header() {
                     <nav className="">
                         <ul className="flex text-black md:text-xl">
                             <li className="m-2 hover:text-sky-400"><Link href="/">Home</Link></li>
-                            <li className="m-2 hover:text-sky-400"><a href="">Resume</a></li>
-                            <li className="m-2 hover:text-sky-400"><a href="/#career">Career</a></li>
-                            <li className="m-2 hover:text-sky-400"><a href="">Projects</a></li>
+                            <li className="m-2 hover:text-sky-400"><Link href="">Resume</Link></li>
+                            <li className="m-2 hover:text-sky-400"><Link href="/#career">Career</Link></li>
+                            <li className="m-2 hover:text-sky-400"><Link href="">Projects</Link></li>
                         </ul>
                     </nav>
                     
