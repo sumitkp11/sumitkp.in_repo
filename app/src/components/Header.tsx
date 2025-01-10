@@ -6,12 +6,18 @@ function Header() {
     return (
         <header className="grid grid-cols-2 md:grid-cols-3 md:flex bg-violet-50 h-24">
             <div className="p-4 my-auto">
-                <Image
+                <Link 
+                    href="/"
+                >
+                    <Image
                     src="/images/sumitkp-web-1.png" 
                     className="mx-auto md:h-auto md:w-full md:max-w-xs md:mx-auto"
                     alt="sumitkp header logo"
                     width={128}
                     height={38} />
+
+                </Link>
+                
             </div>
             <div className="w-full hidden md:block my-auto">
                     <nav className="">
