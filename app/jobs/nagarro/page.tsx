@@ -39,7 +39,7 @@ export default function NagarroPage() {
         </div>
 
       </div>
-      <div className="grid grid-rows-2 bg-[#eff1f4] ">
+      <div className="grid grid-rows-1 bg-[#eff1f4] h-auto">
         <div className="p-10">
         <div className='text-3xl font-semibold py-5 text-[#47d7ac]'>Employement History</div>
           <ol className="items-center sm:flex">
