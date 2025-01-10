@@ -3,7 +3,7 @@ import Header from "../../src/components/Header";
 import FooterSection from "../../src/components/Footer";
 import React from "react";
 import { Counter, CounterOffices } from "@/app/src/components/Counter";
-import Lottie from '@lottielab/lottie-player/react';
+// import Lottie from '@lottielab/lottie-player/react';
 
 
 export default function NagarroPage() {
