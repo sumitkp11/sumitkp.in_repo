@@ -27,6 +27,9 @@ function FooterSection() {
                       <li>
                           <a href="https://hr.sumitkp.in/" className="hover:underline">HireReady</a>
                       </li>
+                      <li>
+                          <a href="https://qr.sumitkp.in/" className="hover:underline">QuickReveal</a>
+                      </li>
                   </ul>
               </div>
               <div>
@@ -64,7 +67,7 @@ function FooterSection() {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://sumitkp.in/" className="hover:underline">sumitkp™</a>. All Rights Reserved.
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024. All Rights Reserved. Powered by creativity from The MinimalBits Labs, a subsidiary of <a href="https://sumitkp.in/" className="hover:underline">sumitkp™</a>
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="https://www.facebook.com/profile.php?id=61571487395449/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">

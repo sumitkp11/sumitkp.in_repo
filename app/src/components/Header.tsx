@@ -4,7 +4,7 @@ import React from "react";
 
 function Header() {
     return (
-        <header className="grid grid-cols-2 md:grid-cols-3 md:flex bg-violet-50 h-24">
+        <header className="grid grid-cols-2 md:grid-cols-3 md:flex bg-violet-50 h-24 sticky">
             <div className="p-4 my-auto">
                 <Link 
                     href="/"
@@ -25,7 +25,7 @@ function Header() {
                             <li className="m-2 hover:text-sky-400"><Link href="/">Home</Link></li>
                             <li className="m-2 hover:text-sky-400"><Link href="">Resume</Link></li>
                             <li className="m-2 hover:text-sky-400"><Link href="/#career">Career</Link></li>
-                            <li className="m-2 hover:text-sky-400"><Link href="">Projects</Link></li>
+                            <li className="m-2 hover:text-sky-400"><Link href="/projects">Projects</Link></li>
                         </ul>
                     </nav>
                     
