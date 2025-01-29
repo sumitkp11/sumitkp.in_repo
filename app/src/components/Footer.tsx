@@ -24,10 +24,10 @@ function FooterSection() {
                       <li className="mb-4">
                           <a href="https://blog.sumitkp.in/" className="hover:underline">Blog</a>
                       </li>
-                      <li>
+                      <li className="mb-4">
                           <a href="https://hr.sumitkp.in/" className="hover:underline">HireReady</a>
                       </li>
-                      <li>
+                      <li className="mb-4">
                           <a href="https://qr.sumitkp.in/" className="hover:underline">QuickReveal</a>
                       </li>
                   </ul>
